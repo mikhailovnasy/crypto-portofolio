@@ -6,28 +6,24 @@ __pycache__/
 .Python
 env/
 venv/
-ENV/
+*.env
 
 # Database
-database/portfolio.db
+*.db
+*.sqlite
+*.sqlite3
 
-# Environment variables
-.env
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# IDE and editor files
+# Build output
+/frontend/css/output.css
+/dist/
+
+# Lainnya
+*.log
+.DS_Store
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Build tools
-node_modules/
-dist/
-build/
